@@ -1,0 +1,11 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://maven.localazy.com/repository/release/" }
+         // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "Wps"
+include ':app'
